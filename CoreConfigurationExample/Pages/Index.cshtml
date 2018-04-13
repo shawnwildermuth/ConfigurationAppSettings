@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@inject Microsoft.Extensions.Configuration.IConfiguration config
+@{
+  ViewData["Title"] = "Home page";
+}
+
+<div>
+  @foreach (var x in config.GetChildren())
+  {
+    <div>@(x.Key) : @(x.Value)</div>
+  }
+</div>
