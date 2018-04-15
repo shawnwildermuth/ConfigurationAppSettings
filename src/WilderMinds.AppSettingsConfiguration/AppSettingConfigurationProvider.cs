@@ -8,30 +8,10 @@ using System.Xml;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Primitives;
 
-namespace CoreConfigurationExample
+namespace WilderMinds.Configuration.AppSettings
 {
-  public static class AppSettingConfigurationExtensions
-  {
-    public static IConfigurationBuilder AddAppSettings(this IConfigurationBuilder bldr)
-    {
-      return bldr.Add<AppSettingsConfigurationSource>(config =>
-      {
-        config.Path = "web.config";
-        config.ReloadOnChange = true;
-        config.Optional = true;
-        config.FileProvider = null;
-      });
-    }
-  }
 
-  public class AppSettingsConfigurationSource : FileConfigurationSource
-  {
-    public override IConfigurationProvider Build(IConfigurationBuilder builder)
-    {
-      EnsureDefaults(builder);
-      return new AppSettingsConfigurationProvider(this);
-    }
-  }
+
 
   public class AppSettingsConfigurationProvider : FileConfigurationProvider
   {
