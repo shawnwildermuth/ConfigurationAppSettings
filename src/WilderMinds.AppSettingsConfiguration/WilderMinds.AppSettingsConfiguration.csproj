@@ -13,6 +13,9 @@
     <Copyright>2017 Shawn Wildermuth</Copyright>
     <PackageId>WilderMinds.Configuration.AppSettings</PackageId>
     <Product>WilderMinds.Configuration.AppSettings</Product>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/shawnwildermuth/ConfigurationAppSettings</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

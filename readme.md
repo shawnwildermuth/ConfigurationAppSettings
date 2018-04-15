@@ -1,6 +1,6 @@
 # AppSettingsConfiguration
 
-This repository contains the project and example for the WilderMinds.AppSettingsConfiguration Nuget Package.
+This repository contains the project and example for the WilderMinds.AppSettings Nuget Package.
 
 This package supports reading AppSettings section of a web.config file in the root of the project. It's a simple library to show how simple it is to create a Configuration Extension. 
 
