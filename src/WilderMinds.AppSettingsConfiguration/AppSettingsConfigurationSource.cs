@@ -9,6 +9,14 @@ namespace WilderMinds.Configuration.AppSettings
 {
   public class AppSettingsConfigurationSource : FileConfigurationSource
   {
+    public AppSettingsConfigurationSource()
+    {
+      Path = "web.config";
+      ReloadOnChange = true;
+      Optional = true;
+      FileProvider = null;
+    }
+
     public override IConfigurationProvider Build(IConfigurationBuilder builder)
     {
       EnsureDefaults(builder);

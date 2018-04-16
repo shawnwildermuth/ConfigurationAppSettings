@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreConfigurationExample", "CoreConfigurationExample\CoreConfigurationExample.csproj", "{5D414F30-2147-449C-9F8F-A81133C76E41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WilderMinds.AppSettingsConfiguration", "WilderMinds.AppSettingsConfiguration\WilderMinds.AppSettingsConfiguration.csproj", "{474682D8-2D27-4F3B-9C60-C432F3A214C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WilderMinds.AppSettingsConfiguration", "WilderMinds.AppSettingsConfiguration\WilderMinds.AppSettingsConfiguration.csproj", "{474682D8-2D27-4F3B-9C60-C432F3A214C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BAC9B8BA-CEA1-4172-9384-350BF11CF121}"
+	ProjectSection(SolutionItems) = preProject
+		..\readme.md = ..\readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

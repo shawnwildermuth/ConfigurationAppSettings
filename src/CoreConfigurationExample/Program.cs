@@ -20,12 +20,12 @@ namespace CoreConfigurationExample
 
     public static IWebHost BuildWebHost(string[] args) =>
         WebHost.CreateDefaultBuilder(args)
-               .ConfigureAppConfiguration(cfg =>
-               {
-                 cfg.Sources.Clear();
-                 cfg.AddAppSettings();
-               })
-               .UseStartup<Startup>()
-               .Build();
+                .ConfigureAppConfiguration(cfg =>
+                {
+                  cfg.Sources.Clear();
+                  cfg.AddAppSettings();
+                })
+                .UseStartup<Startup>()
+                .Build();
   }
 }

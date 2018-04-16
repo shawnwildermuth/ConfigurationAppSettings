@@ -26,3 +26,5 @@ To use the library, simply handle the ConfigurateAppConfiguration in the Program
 
 Please see the blog post for more information:
 
+https://wildermuth.com/2018/04/15/Building-a-NET-Core-Configuration-Source
+

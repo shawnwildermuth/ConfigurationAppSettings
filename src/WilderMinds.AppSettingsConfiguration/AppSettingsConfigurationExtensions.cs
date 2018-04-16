@@ -11,13 +11,7 @@ namespace WilderMinds.Configuration.AppSettings
   {
     public static IConfigurationBuilder AddAppSettings(this IConfigurationBuilder bldr)
     {
-      return bldr.Add<AppSettingsConfigurationSource>(config =>
-      {
-        config.Path = "web.config";
-        config.ReloadOnChange = true;
-        config.Optional = true;
-        config.FileProvider = null;
-      });
+      return bldr.Add(new AppSettingsConfigurationSource());
     }
   }
 }
